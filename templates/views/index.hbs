@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/css/style.css'>
+    <link rel='icon' href='/css/weather.png'>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p id="para1">Enter a location to get weather</p>
+        <form>
+            <input type='text' placeholder='Patna'>
+            <button>Search</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        <p id="message-3"></p>
+        <p id="message-4"></p>
+        <p id="message-5"></p>
+        <p id="message-6"></p>
+        <p id="message-7"></p>
+        <p id="message-8"></p>
+    </div>
+    
+    {{>footer}}
+    <script src='/js/app.js'></script>
+</body>
+</html>

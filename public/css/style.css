@@ -1,0 +1,103 @@
+body{
+    /*background-color: cornsilk;*/
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width:650px;
+    margin:0 auto;
+    padding:0 16px;
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.main-content{
+    min-height: 85vh;
+}
+
+footer{
+    color:#888;
+    border-top:2px solid rgb(219, 211, 211);
+    margin-top:1rem;
+    font-size: large;  
+}
+
+header{
+    /*border:2px solid #000;*/
+    margin:2rem 0 3rem 0;
+}
+
+h1{
+    /*border:1px solid #000;*/
+    font-size:3.8rem;
+    
+}
+header a{
+    /*border:1px solid #000;*/
+    color:#888;
+    margin-right:1.3rem;
+    font-weight: 300;
+    font-size: 19px;
+    text-decoration: none;
+}
+input{
+    border:1px solid #000;
+    padding:8px;
+    font-size: 20px;
+    background:#aaa;
+    border-radius: 5px;
+}
+button{
+    border:1px solid #000;
+    padding:8px 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    background:#222;
+    color:#fff;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+button:hover{
+    color:rgb(238, 132, 12);
+}
+
+#message-1{
+    color:darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-bottom:2rem;
+    font-weight:bolder;
+}
+
+#message-2{
+    color:#666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight:bold;
+}
+#message-3{
+    color:#666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight:bold;
+}
+#message-4,#message-5,#message-6,#message-7,#message-8{
+    color:#666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight:bold;
+}
+
+#para1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
